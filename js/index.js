@@ -102,10 +102,10 @@ $("#galerija5").click(function () {
 $("#galerija6").click(function () {
   $("body").addClass("scroll-block");
   $("#m-popup-display").fadeIn("fast");
-  document.querySelector(".m-popup-slika").src = "/img/FLASICA/tbrender.png";
-  document.querySelector(".m-popup-slika1").src = "/img/FLASICA/tbrender.png";
+  document.querySelector(".m-popup-slika").src = "/img/FLASICA/plavo i crveno.png";
+  document.querySelector(".m-popup-slika1").src = "/img/FLASICA/plavo i crveno.png";
   document.querySelector(".m-popup-slika2").src =
-    "/img/FLASICA/plavo i crveno.png";
+    "/img/FLASICA/tbrender.png";
   document.querySelector(".m-popup-slika3").src =
     "/img/FLASICA/tbrender_012.png";
   document.querySelector(".m-popup-slika4").src =
@@ -177,12 +177,12 @@ $("#galerija9").click(function () {
 $("#galerija10").click(function () {
   $("body").addClass("scroll-block");
   $("#m-popup-display").fadeIn("fast");
-  document.querySelector(".m-popup-slika").src = "/img/noz 2/NOZIC 2.jpg";
-  document.querySelector(".m-popup-slika1").src = "/img/noz 2/NOZIC 2.jpg";
-  document.querySelector(".m-popup-slika2").src = "/img/noz 2/NOZIC3.jpg";
-  document.querySelector(".m-popup-slika3").src = "/img/noz 2/NOZIC 1.jpg";
-  document.querySelector(".m-popup-slika4").src = "/img/noz 2/NOZIC4.jpg";
-  document.querySelector(".m-popup-slika5").src = "/img/noz 2/NOZIC5.jpg";
+  document.querySelector(".m-popup-slika").src = "/img/noz 2/NOZIC5.jpg";
+  document.querySelector(".m-popup-slika1").src = "/img/noz 2/NOZIC5.jpg";
+  document.querySelector(".m-popup-slika2").src = "/img/noz 2/NOZIC4.jpg";
+  document.querySelector(".m-popup-slika3").src = "/img/noz 2/NOZIC 2.jpg";
+  document.querySelector(".m-popup-slika4").src = "/img/noz 2/NOZIC3.jpg";
+  document.querySelector(".m-popup-slika5").src = "/img/noz 2/NOZIC 1.jpg";
   $(".m-popup-slika6").hide();
   $("#ime-projekta").text("Knife");
   $("#program1").text("Cinema4D").show();
