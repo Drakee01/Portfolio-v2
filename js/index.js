@@ -427,6 +427,25 @@ $("#galerija21").click(function () {
   $("#program5").hide();
   $("#text-projekta").text("");
 });
+$("#galerija22").click(function () {
+  $("body").addClass("scroll-block");
+  $("#m-popup-display").fadeIn("fast");
+  document.querySelector(".m-popup-slika").src =
+    "/img/PISTOLJ/pistolj.jpg";
+    $(".m-popup-slika1").hide();
+    $(".m-popup-slika2").hide();
+    $(".m-popup-slika3").hide();
+  $(".m-popup-slika4").hide();
+  $(".m-popup-slika5").hide();
+  $(".m-popup-slika6").hide();
+  $("#ime-projekta").text("Pistol");
+  $("#program1").text("Blender").show();
+  $("#program2").text("Substance Painter").show();
+  $("#program3").text("Marmoset ToolBag").show();
+  $("#program4").hide();
+  $("#program5").hide();
+  $("#text-projekta").text("");
+});
 
 $("#ui-ux-click").click(function () {
   document.querySelector(".ui-ux-galerija").style.display = "flex";
