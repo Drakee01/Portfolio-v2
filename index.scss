@@ -81,6 +81,13 @@ body {
   margin-right: 50px;
 }
 
+.ds-logo{
+  position: relative;
+  bottom: 200px;
+  align-self: flex-start;
+  transform: scale(0.7);
+}
+
 .ime {
   // background: #1ad2ef; 
   // background: -webkit-linear-gradient(
@@ -761,8 +768,83 @@ color: #5C3978;
 }
 
 @media (max-width: 1880px) {
-  .modelling-landing {
-    background-position-x: 85%;
+  // .modelling-landing {
+  //   background-position-x: 85%;
+  // }
+
+  .modelling-landing{
+    height: 75vh;
+  }
+  .landing-video{
+    width: 700px;
+    right: 50px;
+  }
+  .landing-video video{
+    position: relative;
+    left: -550px;
+    width: 1700px;
+  }
+  .info{
+    margin-left: 250px;
+  }
+  .selection{
+    bottom: 40%;
+  }
+}
+@media (max-width: 1366px) {
+  .modelling-main{
+    overflow-x: hidden;
+  }
+  .ds-logo{
+    bottom: 160px;
+  }
+  .info{
+    margin-left: 50px;
+  }
+  .ime{
+    font-size: 70px;
+  }
+  .o-meni{
+    font-size: 20px;
+  }
+  .modelling-landing{
+    height: 100vh;
+  }
+  .landing-video{
+    width: 630px;
+    right: 110px;
+    bottom: 130px;
+  }
+  .landing-video video{
+    position: relative;
+    left: -450px;
+    width: 1400px;
+  }
+  .selection{
+    bottom: 20%;
+  }
+  .parallax-s1{
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-s2{
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-text{
+    max-width: 400px;
+  }
+  .parallax11{
+    background-position-x: -30%;
+    background-size: 80%;
+  }
+  .parallax22{
+    background-position-x: 100%;
+    background-size: 80%;
+  }
+  .parallax33{
+    background-position-x: 70%;
+    background-size: 22%;
   }
 }
 // @media (max-width: 1024px) {
