@@ -780,6 +780,91 @@ body {
     bottom: 40%;
   }
 }
+@media (max-width: 1600px) {
+  .modelling-landing {
+    height: 90vh;
+  }
+  .landing-video {
+    width: 700px;
+    right: 50px;
+  }
+  .landing-video video {
+    position: relative;
+    left: -550px;
+    width: 1700px;
+  }
+  .info {
+    margin-left: 150px;
+  }
+  .selection {
+    bottom: 30%;
+  }
+  .parallax11 {
+    background-position-x: -45%;
+    background-size: 80%;
+  }
+  .parallax22 {
+    background-position-x: 80%;
+    background-size: 80%;
+  }
+  .parallax33 {
+    background-position-x: 64%;
+    background-size: 22%;
+  }
+}
+@media (max-width: 1440px) {
+  .ds-logo {
+    bottom: 160px;
+  }
+  .info {
+    margin-left: 100px;
+  }
+  .ime {
+    font-size: 70px;
+  }
+  .o-meni {
+    font-size: 20px;
+  }
+  .modelling-landing {
+    height: 100vh;
+  }
+  .landing-video {
+    width: 630px;
+    right: 110px;
+    bottom: 30px;
+  }
+  .landing-video video {
+    position: relative;
+    left: -450px;
+    width: 1400px;
+  }
+  .selection {
+    bottom: 5%;
+  }
+  .parallax-s1 {
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-s2 {
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-text {
+    max-width: 400px;
+  }
+  .parallax11 {
+    background-position-x: -20%;
+    background-size: 70%;
+  }
+  .parallax22 {
+    background-position-x: 55%;
+    background-size: 70%;
+  }
+  .parallax33 {
+    background-position-x: 57%;
+    background-size: 20%;
+  }
+}
 @media (max-width: 1366px) {
   .modelling-main {
     overflow-x: hidden;
@@ -836,10 +921,163 @@ body {
     background-size: 22%;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
+  .info {
+    position: relative;
+    bottom: 70px;
+    margin-left: 50px;
+  }
+  .ds-logo {
+    bottom: 100px;
+  }
+  .ime {
+    font-size: 60px;
+  }
+  .o-meni {
+    font-size: 20px;
+  }
   .modelling-landing {
-    background-position-y: 25%;
+    height: 100vh;
+  }
+  .landing-video {
+    width: 630px;
+    right: 80px;
+    bottom: 60px;
+  }
+  .landing-video video {
+    position: relative;
+    left: -350px;
+    width: 1200px;
+  }
+  .selection {
+    bottom: 6%;
+  }
+  .parallax-s1 {
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-s2 {
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-text {
+    max-width: 400px;
+  }
+  .parallax11 {
+    background-position-x: -30%;
+    background-size: 80%;
+  }
+  .parallax22 {
     background-position-x: 100%;
+    background-size: 80%;
+  }
+  .parallax33 {
+    background-position-x: 70%;
+    background-size: 22%;
+  }
+  .moove-laptop {
+    max-width: 90%;
+  }
+  .moove-video {
+    max-width: 90%;
+  }
+  .moove1 img {
+    max-width: 90%;
+  }
+  .moove1 {
+    position: relative;
+    left: 60px;
+  }
+  .moove2 img {
+    max-width: 90%;
+  }
+  .moove-galerija-text {
+    max-width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .info {
+    position: relative;
+    bottom: 40px;
+    margin-left: 50px;
+  }
+  .ds-logo {
+    bottom: 90px;
+  }
+  .ime {
+    font-size: 50px;
+  }
+  .o-meni {
+    font-size: 18px;
+  }
+  .modelling-landing {
+    height: 100vh;
+  }
+  .landing-video {
+    width: 630px;
+    right: 80px;
+    bottom: 0px;
+  }
+  .landing-video video {
+    position: relative;
+    left: -300px;
+    width: 1000px;
+  }
+  .selection {
+    bottom: 0%;
+    top: 13%;
+  }
+  .parallax-s1 {
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-s2 {
+    width: 400px;
+    height: 500px;
+  }
+  .parallax-text {
+    max-width: 400px;
+  }
+  .parallax11 {
+    background-position-x: -500%;
+    background-size: 96%;
+  }
+  .parallax22 {
+    background-position-x: 400%;
+    background-size: 96%;
+  }
+  .parallax33 {
+    background-position-x: 80%;
+    background-size: 28%;
+  }
+  .moove-laptop {
+    max-width: 90%;
+  }
+  .moove-video {
+    max-width: 100%;
+    width: 400px;
+    height: 200px;
+  }
+  .moove-video video {
+    max-width: 90%;
+  }
+  .moove1 img {
+    max-width: 80%;
+  }
+  .moove1 {
+    position: relative;
+    left: 100px;
+  }
+  .moove2 img {
+    max-width: 80%;
+  }
+  .moove-galerija-text {
+    max-width: 80%;
+  }
+  .fearless-grupa {
+    left: 10%;
+    bottom: 168%;
+    max-width: 80%;
   }
 }
 @media (max-width: 820px) {
