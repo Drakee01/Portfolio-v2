@@ -20,6 +20,7 @@ img {
 
 body {
   overflow: overlay;
+  overflow-x: hidden;
 }
 
 .scroll-block {
@@ -143,6 +144,42 @@ letter-spacing: 0.07em;
   opacity: 0;
   transform: scale(0.1);
   transition: all 0.2s ease;
+}
+
+.info-buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.cv-btn{
+  width: 150px;
+  height: 54px;
+  background-color: #D9D9D9;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: black;
+}
+
+.cv-btn p{
+  margin-top: 17px;
+}
+
+.cv-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cv-page img{
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .contactme {
