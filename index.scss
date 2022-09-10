@@ -810,22 +810,23 @@ color: #5C3978;
   // }
 
   .modelling-landing{
-    height: 75vh;
+    height: 100vh;
   }
   .landing-video{
     width: 700px;
     right: 50px;
+    bottom: 100px;
   }
   .landing-video video{
     position: relative;
-    left: -550px;
+    left: -480px;
     width: 1700px;
   }
   .info{
     margin-left: 250px;
   }
   .selection{
-    bottom: 40%;
+    bottom: 5%;
   }
 }
 @media (max-width: 1600px) {
